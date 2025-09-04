@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Market Aggregator 1",
+    "subtitle": "Built with Zara",
+    "description": "Market Aggregator 1 is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://marketaggregator1-qvf2-1nikgbckc-vistara.vercel.app",
+    "splashImageUrl": "https://marketaggregator1-qvf2-1nikgbckc-vistara.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://marketaggregator1-qvf2-1nikgbckc-vistara.vercel.app/image.png",
+    "tagline": "Market Aggregator 1",
+    "screenshotUrls": [
+      "https://marketaggregator1-qvf2-1nikgbckc-vistara.vercel.app/screenshot.png",
+      "https://marketaggregator1-qvf2-1nikgbckc-vistara.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://marketaggregator1-qvf2-1nikgbckc-vistara.vercel.app/api/webhook"
+  }
+}

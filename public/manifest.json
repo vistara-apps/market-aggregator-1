@@ -1,0 +1,14 @@
+{
+  "name": "Market Aggregator 1",
+  "description": "Market Aggregator 1 is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://market-aggregator-1.vistara.dev",
+  "properties": {
+    "app": {
+      "name": "Market Aggregator 1",
+      "description": "Market Aggregator 1 is a Base Mini App built with Zara.",
+      "url": "https://market-aggregator-1.vistara.dev",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
