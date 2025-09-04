@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  
+  body {
+    @apply bg-gradient-to-br from-cyan-400 via-blue-500 to-purple-600 text-white min-h-screen;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white bg-opacity-10 backdrop-blur-lg border border-white border-opacity-20 rounded-xl;
+  }
+  
+  .dark-card {
+    @apply bg-gray-900 bg-opacity-80 backdrop-blur-lg border border-gray-700 rounded-xl;
+  }
+  
+  .sidebar-item {
+    @apply flex items-center space-x-3 px-4 py-3 rounded-lg transition-all duration-200 hover:bg-white hover:bg-opacity-10 cursor-pointer;
+  }
+  
+  .metric-card {
+    @apply bg-gray-800 bg-opacity-60 backdrop-blur-sm rounded-lg p-4 border border-gray-700;
+  }
+  
+  .chart-container {
+    @apply bg-white bg-opacity-5 backdrop-blur-sm rounded-lg p-6 border border-white border-opacity-10;
+  }
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
